@@ -36,6 +36,13 @@ const haircuts = [
     },
 ];
 
+const appointments = [
+    {
+        name: "Tom Brown",
+        time: "1:00PM"
+    }
+]
+
 app.get("/api/haircuts", (req, res) => {
     res.json(haircuts);
 });

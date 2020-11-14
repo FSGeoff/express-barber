@@ -35,3 +35,19 @@ This is a practice exercise to use express.js to create a server and establish r
 1. GET "/api/resources" returns a collection of resources
 2. GET "/api/resources/:id" returns a single resource
 3. POST "/api/resources" allows the user to create a new resources
+### Specific View Roues
+1. view haircut menu
+2. view haircut appointment
+3. view appointment
+
+Views routes will need HTML built out as that's what will be returned
+
+HTML will have:
+    *Boilerplate
+    *CSS Lbrary
+    *jQuery
+    *Placeholder w/the page title `<h1></h1>`
+### Specific API Routes
+1. view haircuts
+2. create appointment
+
